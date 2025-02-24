@@ -1,0 +1,31 @@
+{
+  "name": "test-pr-22964",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "deploy": "strapi deploy",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "0.0.0-experimental.402a8c65252458d28f0c291ad2aaabec270b591d",
+    "@strapi/plugin-users-permissions": "0.0.0-experimental.402a8c65252458d28f0c291ad2aaabec270b591d",
+    "@strapi/strapi": "0.0.0-experimental.402a8c65252458d28f0c291ad2aaabec270b591d",
+    "better-sqlite3": "11.3.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "98970f27-5d43-4730-8a6f-f52a0d54c2a0"
+  }
+}
