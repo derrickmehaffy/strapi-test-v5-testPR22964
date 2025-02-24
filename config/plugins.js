@@ -1,1 +1,5 @@
-module.exports = () => ({});
+module.exports = () => ({
+  "generate-data": {
+    enabled: true,
+  },
+});

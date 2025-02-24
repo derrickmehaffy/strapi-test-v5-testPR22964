@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tests",
+  "info": {
+    "singularName": "test",
+    "pluralName": "tests",
+    "displayName": "test"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "shortString": {
+      "type": "string"
+    },
+    "longString": {
+      "type": "text"
+    },
+    "boolean": {
+      "type": "boolean"
+    },
+    "integer": {
+      "type": "integer"
+    },
+    "decimal": {
+      "type": "decimal"
+    },
+    "enumeration": {
+      "type": "enumeration",
+      "enum": [
+        "blah",
+        "meh",
+        "hello"
+      ]
+    },
+    "singleMedia": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
